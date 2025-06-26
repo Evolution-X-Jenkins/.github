@@ -133,6 +133,9 @@
 
   <!-- Infrastructure -->
   <project path="evolution/manifest" name="manifest" remote="evo" />
+  <project path="evolution/OTA" name="OTA" remote="evo" />
+  <project path="evolution/www" name="www" revision="main" remote="evo" />
+  <project path="evolution/www/gitres" name="www_gitres" revision="main" remote="evo" />
 
   <!-- Kernel -->
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="evo" />
